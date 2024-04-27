@@ -10,5 +10,5 @@ interface PanelProps {
 export default (props: PanelProps) => {
   const { position = 'top-left', children } = props;
 
-  return <div position={position}>{children}</div>;
+  return <div position={position}>{children} A Test Code</div>;
 };
